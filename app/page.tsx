@@ -72,7 +72,7 @@ export default function Home() {
                 <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-teal-500 to-emerald-600 opacity-30"></div>
                 <div className="relative">
                   <Image
-                    src="/beelar.png"
+                    src="/beelar.jpg"
                     alt="Nabilah Sani Mohammed"
                     width={500}
                     height={600}
@@ -169,8 +169,8 @@ export default function Home() {
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">Public Policy</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Driving policy research and analysis to deliver practical solutions for energy access challenges and developed sustainable
-                      inpacts oriented energy frameworks.
+                      Driving policy research and analysis to deliver practical solutions for energy access challenges and develop sustainable
+                      data driven energy frameworks.
                     </p>
                   </div>
                 </div>
@@ -326,7 +326,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-medium">Policy Initiatives</h3>
                   <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-                    Led successful policy development projects for sustainable agriculture
+                  Led successful policy development projects for renewable energy integration and climate-smart agriculture
                   </p>
                 </div>
               </ScrollReveal>
@@ -338,7 +338,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-medium">Years Experience</h3>
                   <p className="text-center text-sm text-gray-500 dark:text-gray-400">
-                    Working at the intersection of energy policy and sustainable agriculture
+                  Working at the intersection of energy policy, renewable energy deployment, and climate-smart practices to promote sustainable development
                   </p>
                 </div>
               </ScrollReveal>
@@ -395,8 +395,7 @@ export default function Home() {
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10"></div>
                   <div className="absolute bottom-4 left-4 right-4 rounded-xl bg-white/90 p-4 backdrop-blur-sm dark:bg-gray-900/90">
                     <p className="text-sm font-medium text-gray-900 dark:text-white">
-                      "Sustainable energy solutions are key to addressing climate challenges in agricultural
-                      communities."
+                      "Policy formulation is the foundation for effective climate action and sustainable energy implementation."
                     </p>
                     <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                       — Nabilah Sani Mohammed
