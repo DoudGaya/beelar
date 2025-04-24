@@ -23,7 +23,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-4">
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-teal-700 dark:from-white dark:to-teal-400">
-                    Nabilah Sani Mohammed (PhD)
+                    Nabilah Sani Mohammed (Ph.D.)
                   </h1>
                   <p className="text-2xl text-teal-700 font-medium dark:text-teal-400">
                     Director, Corporate Services at Alfuttaim Nigeria Limited
