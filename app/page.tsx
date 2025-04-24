@@ -22,15 +22,15 @@ export default function Home() {
                   </span>
                 </div>
                 <div className="space-y-4">
-                  <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-teal-700 dark:from-white dark:to-teal-400">
-                    Nabilah Sani Mohammed
+                  <h1 className="text-4xl font-bold tracking-tighter sm:text-4xl xl:text-5xl/none bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-teal-700 dark:from-white dark:to-teal-400">
+                    Nabilah Sani Mohammed (PhD)
                   </h1>
-                  <p className="text-xl text-teal-700 font-medium dark:text-teal-400">
-                    Head of Communications and Engagements
+                  <p className="text-2xl text-teal-700 font-medium dark:text-teal-400">
+                    Director, Corporate Services at Alfuttaim Nigeria Limited
                   </p>
-                  <p className="max-w-[600px] text-gray-600 md:text-xl dark:text-gray-300">
-                    Driving sustainable energy solutions and policy innovations for climate-smart agricultural
-                    practices.
+                  <p className="max-w-[600px] text-gray-600 md:text-md dark:text-gray-300">
+                  Head of Communication and 
+                  Engagement at the Center for Climate-Smart Agriculture, Cosmopolitan University, Abuja
                   </p>
                 </div>
                 <div className="flex flex-col gap-3 min-[400px]:flex-row">
@@ -138,7 +138,7 @@ export default function Home() {
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">Sustainable Energy</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Promoting sustainable energy technologies to enhance energy efficiency in agriculture and rural
+                      Promoting sustainable energy technologies to enhance energy efficiency in rural and underserved 
                       communities.
                     </p>
                   </div>
@@ -169,8 +169,8 @@ export default function Home() {
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">Public Policy</h3>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Conducting policy research and analysis to address energy access challenges and create sustainable
-                      frameworks.
+                      Driving policy research and analysis to deliver practical solutions for energy access challenges and developed sustainable
+                      inpacts oriented energy frameworks.
                     </p>
                   </div>
                 </div>
@@ -244,12 +244,12 @@ export default function Home() {
                       <h3 className="text-2xl font-bold">PhD in Public Policy</h3>
                       <p className="text-teal-600 dark:text-teal-400">Universiti Brunei Darussalam</p>
                       <p className="text-gray-500 dark:text-gray-400">
-                        Researching sustainable energy policies and their impact on agricultural communities.
+                        Research on sustainable energy policies and their impact on energy access, economic development, and environmental sustainability in emerging economies, with a focus on the use of biomass for electricity generation in Nigerian.
                       </p>
                       <div className="mt-2 flex items-center text-sm text-gray-500 dark:text-gray-400">
-                        <span className="inline-flex items-center rounded-full border border-teal-200 bg-teal-50 px-2.5 py-0.5 text-xs font-semibold text-teal-700 dark:border-teal-500/30 dark:bg-teal-900/20 dark:text-teal-400">
+                        {/* <span className="inline-flex items-center rounded-full border border-teal-200 bg-teal-50 px-2.5 py-0.5 text-xs font-semibold text-teal-700 dark:border-teal-500/30 dark:bg-teal-900/20 dark:text-teal-400">
                           Currently pursuing
-                        </span>
+                        </span> */}
                       </div>
                     </div>
                   </div>
@@ -384,7 +384,7 @@ export default function Home() {
               </ScrollReveal>
 
               <ScrollReveal delay={0.3}>
-                <div className="relative mx-auto aspect-video overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800">
+                <div className="relative mx-auto aspect-square overflow-hidden rounded-2xl bg-gray-100 dark:bg-gray-800">
                   <div className="absolute inset-0 bg-gradient-to-br from-teal-500/20 to-emerald-500/20"></div>
                   <Image
                     src="/beelar.png"
@@ -399,7 +399,7 @@ export default function Home() {
                       communities."
                     </p>
                     <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
-                      — Nabilah Sani Mohammed, Center for Climate-Smart Agriculture
+                      — Nabilah Sani Mohammed
                     </p>
                   </div>
                 </div>

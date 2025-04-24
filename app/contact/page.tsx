@@ -33,10 +33,18 @@ export default function ContactPage() {
     setIsSubmitting(true)
 
     try {
-      // In a real implementation, you would send this data to your server
-      // For now, we'll simulate a successful submission
-      await new Promise((resolve) => setTimeout(resolve, 1000))
+      // Mock API call to send email
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
 
+      if (!response.ok) {
+        throw new Error("Failed to send email")
+      }
       toast({
         title: "Message sent!",
         description: "Thank you for your message. Nabilah will get back to you soon.",
@@ -102,7 +110,7 @@ export default function ContactPage() {
                           href="mailto:nabilah.sani@cosmopolitan.edu.ng"
                           className="hover:text-teal-600 transition-colors dark:hover:text-teal-400"
                         >
-                          nabilah.sani@cosmopolitan.edu.ng
+                          nabilah.mohammed@alfenergyng.com
                         </a>
                       </p>
                       <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
