@@ -72,7 +72,7 @@ export default function Home() {
                 <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-teal-500 to-emerald-600 opacity-30"></div>
                 <div className="relative">
                   <Image
-                    src="/beelar.jpg"
+                    src="/beelar.png"
                     alt="Nabilah Sani Mohammed"
                     width={500}
                     height={600}
