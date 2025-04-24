@@ -69,14 +69,14 @@ export default function Home() {
                 </div>
               </FadeIn>
               <div className="mx-auto lg:mx-0 relative">
-                <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-teal-500 to-emerald-600 opacity-30"></div>
+                <div className="absolute -inset-0.5 rounded-full bg-gradient-to-r from-teal-500 to-emerald-600 opacity-30"></div>
                 <div className="relative">
                   <Image
                     src="/beelar.jpg"
                     alt="Nabilah Sani Mohammed"
                     width={500}
                     height={600}
-                    className="mx-auto aspect-[4/5] rounded-2xl object-cover shadow-2xl"
+                    className="mx-auto aspect-square object-cover rounded-full object-top shadow-2xl"
                     priority
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-white/10 "></div>

@@ -107,7 +107,7 @@ export default function ContactPage() {
                       <h3 className="text-xl font-bold">Email</h3>
                       <p className="text-gray-600 dark:text-gray-300 mt-1">
                         <a
-                          href="mailto:nabilah.sani@cosmopolitan.edu.ng"
+                          href="mailto:nabilah.mohammed@alfenergyng.com"
                           className="hover:text-teal-600 transition-colors dark:hover:text-teal-400"
                         >
                           nabilah.mohammed@alfenergyng.com
